@@ -6,10 +6,13 @@
 
 ## 下载
 
-| 要什么 | 去哪里拿 |
-|---|---|
-| 整个项目 | [Releases → v1.0.0 → Source code (zip)](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest)，或仓库右上角绿色 `Code` → `Download ZIP` |
-| 只要工具本身 | [index.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/index.html)，在文件页右上角点下载图标。单个 HTML，不用解压 |
+这个工具就是一个 HTML 文件，下载下来双击就能用，不需要解压。
+
+**[→ 下载 index.html](https://raw.githubusercontent.com/b13137981929-debug/notein-a4-pdf/main/index.html)**（约 48 KB）
+
+打开链接后如果显示的是源码，按 `Ctrl + S` 保存，文件名填 `index.html` 即可。也可以走仓库里的文件页：[index.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/index.html) → 点 `Raw` 或右上角的下载图标。
+
+想要完整项目（含 README、LICENSE）再拿 zip：[Releases](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest) 里的 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
 
 想省掉下载这一步，可以在仓库 `Settings → Pages` 里把 `main` 分支设为站点，之后直接在线打开使用。
 
