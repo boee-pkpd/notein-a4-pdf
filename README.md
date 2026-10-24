@@ -4,6 +4,15 @@
 
 单文件、纯前端、无依赖、无后端。图片只在浏览器内存里处理，不上传任何服务器。
 
+## 下载
+
+| 要什么 | 去哪里拿 |
+|---|---|
+| 整个项目 | [Releases → v1.0.0 → Source code (zip)](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest)，或仓库右上角绿色 `Code` → `Download ZIP` |
+| 只要工具本身 | [index.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/index.html)，在文件页右上角点下载图标。单个 HTML，不用解压 |
+
+想省掉下载这一步，可以在仓库 `Settings → Pages` 里把 `main` 分支设为站点，之后直接在线打开使用。
+
 ## 它解决什么问题
 
 无界笔记是无限画布，导出的长图动辄几千像素高、比例任意，直接打印会出现两种问题：一是按 A4 缩放后字小得看不清，二是一页塞不下、被打印机硬切成两半，切口正好压在内容上。
