@@ -6,15 +6,13 @@
 
 ## 下载
 
-这个工具就是一个 HTML 文件，下载下来双击就能用，不需要解压。
+**整个工具就是一个 HTML 文件，下载后双击就能用** —— 不用解压、不用安装、不需要联网。
 
-**[→ 下载 index.html](https://raw.githubusercontent.com/b13137981929-debug/notein-a4-pdf/main/index.html)**（约 48 KB）
+**[→ 下载 A4-PDF.html](https://raw.githubusercontent.com/b13137981929-debug/notein-a4-pdf/main/A4-PDF.html)**（48 KB）
 
-打开链接后如果显示的是源码，按 `Ctrl + S` 保存，文件名填 `index.html` 即可。也可以走仓库里的文件页：[index.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/index.html) → 点 `Raw` 或右上角的下载图标。
+打开链接后如果显示成源码，按 `Ctrl + S` 保存，文件名填 `A4-PDF.html` 即可。也可以走仓库的文件页：[A4-PDF.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/A4-PDF.html)，点右上角 `Raw` 旁边的下载图标。
 
 想要完整项目（含 README、LICENSE）再拿 zip：[Releases](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest) 里的 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
-
-想省掉下载这一步，可以在仓库 `Settings → Pages` 里把 `main` 分支设为站点，之后直接在线打开使用。
 
 ## 它解决什么问题
 
@@ -50,7 +48,7 @@
 
 ## 使用
 
-1. 下载 `index.html`，双击用 Chrome / Edge 打开（不需要装任何东西，也不需要联网）。
+1. 下载 `A4-PDF.html`，双击用 Chrome / Edge 打开（不需要装任何东西，也不需要联网）。
 2. 在 Notein 里导出「图片 / 长图」，拖进页面。建议宽度不低于 1500px，打印才够清晰。
 3. 选模式、调版面，点「生成 PDF」，文件会以 `<原图名>-A4.pdf` 下载。
 
@@ -94,7 +92,7 @@
 
 ```
 notein-a4-pdf/
-├── index.html      # 全部代码：样式、交互、排版、PDF 生成
+├── A4-PDF.html     # 全部代码：样式、交互、排版、PDF 生成
 ├── LICENSE
 └── README.md
 ```
@@ -111,4 +109,4 @@ A single-file, client-side tool that turns a long note image exported from Notei
 
 Two cutting modes — a draggable grid with A4-ratio snapping, or free A4 viewfinder frames — plus per-page paper size, orientation and zoom, page reordering, and a hand-written PDF writer that embeds JPEG tiles via `/DCTDecode` with no third-party libraries. Everything runs locally in the browser; no upload, no server.
 
-Open `index.html` in Chrome or Edge, drop a long image in, and export.
+Open `A4-PDF.html` in Chrome or Edge, drop a long image in, and export.
