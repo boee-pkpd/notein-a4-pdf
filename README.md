@@ -6,13 +6,11 @@
 
 ## 下载
 
-**整个工具就是一个 HTML 文件，下载后双击就能用** —— 不用解压、不用安装、不需要联网。
+**整个工具就是一个 HTML 文件，点下面这行就直接下载**，双击用 Chrome / Edge 打开即可 —— 不用解压、不用安装、不需要联网。
 
-**[→ 下载 A4-PDF.html](https://raw.githubusercontent.com/b13137981929-debug/notein-a4-pdf/main/A4-PDF.html)**（48 KB）
+**[⬇ 下载 A4-PDF.html](https://github.com/b13137981929-debug/notein-a4-pdf/releases/download/v1.0.0/A4-PDF.html)**（48 KB）
 
-打开链接后如果显示成源码，按 `Ctrl + S` 保存，文件名填 `A4-PDF.html` 即可。也可以走仓库的文件页：[A4-PDF.html](https://github.com/b13137981929-debug/notein-a4-pdf/blob/main/A4-PDF.html)，点右上角 `Raw` 旁边的下载图标。
-
-想要完整项目（含 README、LICENSE）再拿 zip：[Releases](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest) 里的 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
+也可以打开 [Releases 资源区](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest)，列表第一项就是 `A4-PDF.html`。需要完整项目（含 README、LICENSE）时再拿 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
 
 ## 它解决什么问题
 
@@ -92,7 +90,9 @@
 
 ```
 notein-a4-pdf/
-├── A4-PDF.html     # 全部代码：样式、交互、排版、PDF 生成
+├── A4-PDF.html                        # 全部代码：样式、交互、排版、PDF 生成
+├── .github/workflows/
+│   └── upload-release-asset.yml       # 自动把 A4-PDF.html 附到 Release 资源
 ├── LICENSE
 └── README.md
 ```
