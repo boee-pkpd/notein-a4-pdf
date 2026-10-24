@@ -8,9 +8,9 @@
 
 **整个工具就是一个 HTML 文件，点下面这行就直接下载**，双击用 Chrome / Edge 打开即可 —— 不用解压、不用安装、不需要联网。
 
-**[⬇ 下载 A4-PDF.html](https://github.com/b13137981929-debug/notein-a4-pdf/releases/download/v1.0.0/A4-PDF.html)**（48 KB）
+**[⬇ 下载 A4-PDF.html](https://github.com/boee-pkpd/notein-a4-pdf/releases/latest/download/A4-PDF.html)**（48 KB）
 
-也可以打开 [Releases 资源区](https://github.com/b13137981929-debug/notein-a4-pdf/releases/latest)，列表第一项就是 `A4-PDF.html`。需要完整项目（含 README、LICENSE）时再拿 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
+也可以打开 [Releases 资源区](https://github.com/boee-pkpd/notein-a4-pdf/releases/latest)，列表第一项就是 `A4-PDF.html`。需要完整项目（含 README、LICENSE）时再拿 `Source code (zip)`，或仓库右上角绿色 `Code` → `Download ZIP`。
 
 ## 它解决什么问题
 
