@@ -1,0 +1,23 @@
+name: 上传 Release 资源
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "A4-PDF.html"
+      - ".github/workflows/upload-release-asset.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 把 A4-PDF.html 附到 v1.0.0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload v1.0.0 A4-PDF.html --clobber
